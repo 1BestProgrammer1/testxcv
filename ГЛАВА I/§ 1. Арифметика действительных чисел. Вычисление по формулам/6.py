@@ -9,3 +9,5 @@ def right_triangle_cathets(cathet1, cathet2):
 
 
 print(right_triangle_cathets(3, 4))
+# т.к. ты написал функцию, значит функция должна проверить корректность входных данных. Вот пример некорректного поведения программы:
+print(right_triangle_cathets(-3, 2))
